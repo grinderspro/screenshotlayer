@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Grinderspro",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "grinderspro/directory-manipulator" : "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grinderspro\\Screenshotlayer\\": "src/"
+    }
+  }
+}
