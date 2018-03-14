@@ -10,7 +10,7 @@ Then run ```composer install```
 
 ## Usage
 
-Получим скриншот сайта vk и сохраним его локально на диск '/tmp/google.png'
+Получим скриншот сайта google.com и сохраним его локально на диск '/tmp/google.png'
 
 ```php
 (new Screenshotlayer('your_secret_key'))
